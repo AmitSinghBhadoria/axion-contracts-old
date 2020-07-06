@@ -1,0 +1,30 @@
+{
+  "name": "hex2x-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx truffle compile",
+    "test": "npx truffle test",
+    "coverage": "npx truffle run coverage --network coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rock-n-Block/hex2x-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rock-n-Block/hex2x-contracts/issues"
+  },
+  "homepage": "https://github.com/Rock-n-Block/hex2x-contracts#readme",
+  "dependencies": {
+    "truffle-flattener": "^1.4.4",
+    "bn.js": "^5.1.2",
+    "chai": "^4.2.0",
+    "chai-bn": "^0.2.1",
+    "solidity-coverage": "^0.7.9",
+    "truffle": "^5.1.33"
+  }
+}
